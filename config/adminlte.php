@@ -341,6 +341,7 @@ return [
                     'route' => 'admin.models.index',
                     'icon' => 'fas fa-trailer',
                 ],
+               
                 [
                     'text' => 'Tipos',
                     'url' => 'admin/settings',
@@ -372,12 +373,12 @@ return [
         ['header' => 'GESTIÓN DE RUTAS'],
         [
             'text' => 'Sectores',
-            'url' => 'admin/settings',
+            'route' => 'admin.sectors.index',
             'icon' => 'fas fa-layer-group',
         ],
         [
             'text' => 'Zonas',
-            'url' => 'admin/settings',
+            'route' => 'admin.zones.index',
             'icon' => 'fas fa-map-signs',
         ],
         [
